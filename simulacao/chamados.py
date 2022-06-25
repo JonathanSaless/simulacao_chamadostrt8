@@ -1,11 +1,6 @@
 #DIAGRAMA ACD TRABALHO FINAL
 import simpy as sp
 import csv
-
-def mostrar_chamados():
-    chamados = ler_csv()    
-    for chamado in chamados:
-        print("ID:{:<8} | Tempo de Chegada: {:<8} | Tempo de Resolução: {:<8} | DPS de Resolução: {:<8}".format(chamado["id"], chamado["tempo_de_chegada"], chamado["tempo_de_resolucao"], chamado["DPS_resolucao"]))
     
 def ler_csv():
     arquivo = open("chamados.csv")
