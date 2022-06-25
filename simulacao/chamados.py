@@ -1,4 +1,3 @@
-#DIAGRAMA ACD TRABALHO FINAL
 import simpy as sp
 import csv
     
